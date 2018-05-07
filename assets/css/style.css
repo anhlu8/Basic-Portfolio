@@ -50,6 +50,15 @@ header {
     margin: 10px auto 40px;
 }
 
+.container1 {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 960px;
+    margin: 10px auto 40px;
+    padding: 50px;
+    overflow: auto;
+}
+
 h1 {
     color: #4aaaa5;
     font-size: 50px;
@@ -66,6 +75,13 @@ img {
     margin-right: 20px; 
 }
 
+.gallery {
+    position: relative;
+}
+
+.gallery img {
+    margin: 20px 40px 30px 0px;
+}
 
 footer {
     background-color: #666666;
@@ -80,48 +96,46 @@ footer {
 #footerFont {
     color: #ffffff;
 }
-
-.images {
-    display: inline;
-}
-.image1 { 
-    position: absolute;
-    display: inline;
- }
  
  h2 { 
     position: absolute; 
     top: 200px; 
     left: 0; 
-    width: 100%; 
     float: left;
     color: white; 
     text-align: center;  
     background: #4aaaa5;
-    padding: 5px 10px;
-    width: 180px; 
+    padding: 10px 0px;
+    width: 300px; 
     top: 30px;
  }
 
- .image2 { 
-    position: relative;
-    display: inline;
-    left: 400px;
- }
- 
- h2 { 
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-    float: left;
-    color: white; 
-    text-align: center;  
-    background: #4aaaa5;
-    padding: 5px 10px;
-    width: 280px; 
-    top: 50px;
- }
+.img1 {
+    position: absolute;
+    top: 150px;
+}
+
+.img2 {
+    position: absolute;
+    top: 150px;
+    left: 340px;
+}
+
+.img3 {
+    position: absolute;
+    top: 400px;
+}
+
+.img4 {
+    position: absolute;
+    top: 400px;
+    left: 340px;
+}
+
+.img5 {
+    position: absolute;
+    top: 650px;
+}
 
  input {
      width: 100%;
